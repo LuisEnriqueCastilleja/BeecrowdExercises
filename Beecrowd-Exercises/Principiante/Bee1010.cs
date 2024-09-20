@@ -1,4 +1,4 @@
-﻿namespace Beecrowd_Exercises
+﻿namespace Beecrowd_Exercises.Principiante
 {
     public class Bee1010
     {

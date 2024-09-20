@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Beecrowd_Exercises
+namespace Beecrowd_Exercises.Principiante
 {
-    public class Bee1007
+    public class Bee1008
     {
         /*
         Escribe un programa que lea un número de empleado, su número de horas trabajadas en 
@@ -25,6 +25,14 @@ namespace Beecrowd_Exercises
        Output
        Imprimir el número y salario del empleado, acorde al siguiente ejemplo, con los 
        espacios en blanco antes y después del signo igual.
-       */
+*/
+
+
+        //int numberEmployee = int.Parse(Console.ReadLine());
+        //int workedHours = int.Parse(Console.ReadLine());
+        //float salaryPerHour = float.Parse(Console.ReadLine());
+        //float salaryPerMonth = salaryPerHour * workedHours;
+
+        //Console.WriteLine($"NUMBER = {numberEmployee}\nSALARY = U$ {salaryPerMonth.ToString("F2")}\n");
     }
 }

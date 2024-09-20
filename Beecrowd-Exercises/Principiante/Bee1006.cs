@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Beecrowd_Exercises
+namespace Beecrowd_Exercises.Principiante
 {
     public class Bee1006
     {
