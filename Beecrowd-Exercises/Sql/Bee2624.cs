@@ -8,8 +8,6 @@
 
 
 
-
-
         -- SOLUTION --
         SELECT COUNT(DISTINCT c.city) as count from customers as c;
 
