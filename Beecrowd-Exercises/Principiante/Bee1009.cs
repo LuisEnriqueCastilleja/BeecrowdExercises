@@ -28,13 +28,17 @@
 
     TOTAL = R$ 684.54
 
+
+
+    -- SOLUTION --
+    string nameEmployee = Console.ReadLine();
+    double salaryWorker = double.Parse(Console.ReadLine());
+    double totalSales = double.Parse(Console.ReadLine());
+    double totalSalary = (double)(salaryWorker + totalSales * 0.15);
+
+    Console.WriteLine($"TOTAL = R$ {totalSalary.ToString("F2")}\n\n");
     */
 
-        //string nameEmployee = Console.ReadLine();
-        //double salaryWorker = double.Parse(Console.ReadLine());
-        //double totalSales = double.Parse(Console.ReadLine());
-        //double totalSalary = (double)(salaryWorker + totalSales * 0.15);
 
-        //Console.WriteLine($"TOTAL = R$ {totalSalary.ToString("F2")}\n\n");
     }
 }

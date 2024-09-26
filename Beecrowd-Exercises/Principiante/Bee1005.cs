@@ -19,15 +19,21 @@
       Imprimir el mensaje "MEDIA"(Promedio en Portugués) y el
       promedio de los estudiantes de acuerdo con los siguientes ejemplos,
       con 5 dígitos después del punto decimal y con el espacio en blanco
-      antes y después del signo igual.*/
+      antes y después del signo igual.
+        
+         
+         
+         
+     -- SOLUTION --
+        float a = float.Parse(Console.ReadLine());
+        float b = float.Parse(Console.ReadLine());
+        float aPlusb = (float)(a * 3.5 + b * 7.5);
+        float promedio = (float)(aPlusb / (3.5 + 7.5));
+        Console.WriteLine($"MEDIA = {promedio.ToString("F5")}");     
+    */
 
 
 
-        //SOLUTION
-        //float a = float.Parse(Console.ReadLine());
-        //float b = float.Parse(Console.ReadLine());
-        //float aPlusb = (float)(a * 3.5 + b * 7.5);
-        //float promedio = (float)(aPlusb / (3.5 + 7.5));
-        //Console.WriteLine($"MEDIA = {promedio.ToString("F5")}");
+
     }
 }

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Beecrowd_Exercises.Principiante
+﻿namespace Beecrowd_Exercises.Principiante
 {
     public class Bee1008
     {
@@ -25,14 +19,17 @@ namespace Beecrowd_Exercises.Principiante
        Output
        Imprimir el número y salario del empleado, acorde al siguiente ejemplo, con los 
        espacios en blanco antes y después del signo igual.
+
+
+
+        
+        -- SOLUTION --
+        int numberEmployee = int.Parse(Console.ReadLine());
+        int workedHours = int.Parse(Console.ReadLine());
+        float salaryPerHour = float.Parse(Console.ReadLine());
+        float salaryPerMonth = salaryPerHour * workedHours;
+
+        Console.WriteLine($"NUMBER = {numberEmployee}\nSALARY = U$ {salaryPerMonth.ToString("F2")}\n");
 */
-
-
-        //int numberEmployee = int.Parse(Console.ReadLine());
-        //int workedHours = int.Parse(Console.ReadLine());
-        //float salaryPerHour = float.Parse(Console.ReadLine());
-        //float salaryPerMonth = salaryPerHour * workedHours;
-
-        //Console.WriteLine($"NUMBER = {numberEmployee}\nSALARY = U$ {salaryPerMonth.ToString("F2")}\n");
     }
 }
